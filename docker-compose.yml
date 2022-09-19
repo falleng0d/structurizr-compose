@@ -1,0 +1,8 @@
+services:
+  server:
+    image: structurizr/onpremises
+    container_name: structurizr_server
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./server/data:/usr/local/structurizr

@@ -1,0 +1,77 @@
+{
+  "id" : 1,
+  "name" : "Name",
+  "description" : "Description",
+  "revision" : 5,
+  "lastModifiedDate" : "2022-09-19T22:57:29Z",
+  "lastModifiedUser" : "structurizr",
+  "lastModifiedAgent" : "structurizr-web/2815/dsl",
+  "properties" : {
+    "structurizr.dsl" : "d29ya3NwYWNlICJOYW1lIiAiRGVzY3JpcHRpb24iIHsKICAgIG1vZGVsIHsKICAgICAgICBrZXkgPSBzb2Z0d2FyZVN5c3RlbSBrZXkgIktleSIKICAgICAgICBkYXRhID0gc29mdHdhcmVTeXN0ZW0gZGF0YSAiRGF0YSIKICAgIH0KICAgIAogICAgdmlld3MgewogICAgICAgIHN5c3RlbUNvbnRleHQga2V5IHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgIGF1dG9sYXlvdXQgbHIKICAgICAgICB9CgogICAgICAgIGNvbnRhaW5lciBrZXkgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICAgICAgYXV0b2xheW91dCBscgogICAgICAgIH0KCiAgICAgICAgdGhlbWUgZGVmYXVsdAogICAgfQp9Cg=="
+  },
+  "configuration" : { },
+  "model" : {
+    "softwareSystems" : [ {
+      "id" : "1",
+      "tags" : "Element,Software System",
+      "name" : "key",
+      "description" : "Key",
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "2",
+      "tags" : "Element,Software System",
+      "name" : "data",
+      "description" : "Data",
+      "location" : "Unspecified",
+      "documentation" : { }
+    } ]
+  },
+  "documentation" : { },
+  "views" : {
+    "systemContextViews" : [ {
+      "softwareSystemId" : "1",
+      "key" : "key-SystemContext",
+      "order" : 1,
+      "dimensions" : {
+        "width" : 849,
+        "height" : 700
+      },
+      "automaticLayout" : {
+        "implementation" : "Dagre",
+        "rankDirection" : "LeftRight",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 200,
+        "y" : 200
+      } ]
+    } ],
+    "containerViews" : [ {
+      "softwareSystemId" : "1",
+      "key" : "key-Container",
+      "order" : 2,
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "LeftRight",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "externalSoftwareSystemBoundariesVisible" : true
+    } ],
+    "configuration" : {
+      "branding" : { },
+      "styles" : { },
+      "themes" : [ "https://static.structurizr.com/themes/default/theme.json" ],
+      "terminology" : { },
+      "lastSavedView" : "key-SystemContext"
+    }
+  }
+}
