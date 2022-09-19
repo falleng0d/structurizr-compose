@@ -16,8 +16,8 @@ Get and fill your KEY and SECRET on Makefile from the web interface
 ```make export``` to convert the pulled workspace into a editable structurizr
 dsl file
 
-See
+### See docs for help
 
-[structurizr-on-premises docs](https://structurizr.com/help/on-premises/getting-started)
+[structurizr-on-premises](https://structurizr.com/help/on-premises/getting-started)
 
-[structurizr-cli docs](https://github.com/structurizr/cli)
+[structurizr-cli](https://github.com/structurizr/cli)
