@@ -1,6 +1,6 @@
 # Structurizr-compose
 
-# A simple template for local architecture documentation with structurizr
+## A simple template for local architecture diagramming and documentation with structurizr
 
 
 ```docker-compose up```
